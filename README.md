@@ -2,20 +2,29 @@
 
 This library helps capture tags like Facebook comments after @
 
+```
  1_ Get the current name after @
+ 
  2_ Get all  names in comment after @
-
+ 
+```
 ###  Example
 
  ##### text
 
- > Lorem ipsum #dolor sit amet, ea sea solum consul, eu est minim nusquam salutandi. #Sed consul mucius no, ad duo enim pertinacia. Nam soluta delectus ne, ad harum patrioque vix. Vim summo commune scripserit ne, facer timeam #sit id, eu has harum molestiae #scripse...
-
+ ```
+  Lorem ipsum #dolor sit amet, ea sea solum consul, eu est minim nusquam salutandi. #Sed consul mucius no, ad duo enim pertinacia. Nam soluta delectus ne, ad harum patrioque vix. Vim summo commune scripserit ne, facer timeam #sit id, eu has harum molestiae #scripse...
+  
+ ```
   ##### output
 
-   > List :  [#dolor , #Sed , #sit] ,
+   ```
+    List :  [#dolor , #Sed , #sit] ,
+    
+   ```
+   ```
      currently : #scripse...
-
+   ```
    
 # Getting Started 
 ###  Parameters
